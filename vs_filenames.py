@@ -3,6 +3,7 @@ import tempfile
 import random
 import sys
 import math
+import shutil
 
 
 FILES_ORIGINAL = []
@@ -151,7 +152,6 @@ Use with caution! There is no undo nor is there testing. You have been warned.
 By default, the current working directory is used.""")
 
     # check if vscode is in the path
-    import shutil
     p.add_argument("-no-code",
                    action=argparse.BooleanOptionalAction,
                    type=bool,

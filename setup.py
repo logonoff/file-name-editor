@@ -12,14 +12,14 @@ long_description = readme()
 
 setuptools.setup(
     name='vs-rename',
-    version='0.1',
+    version='0.1.1',
     scripts=['vs_filenames.py'],
     author="logonoff",
     author_email="hello@logonoff.co",
     description="quick script that helps you mass-edit file names with vscode",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/logonoff/file",
+    url="https://github.com/logonoff/vs-rename",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
